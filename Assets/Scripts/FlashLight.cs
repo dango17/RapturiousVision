@@ -4,24 +4,39 @@ using UnityEngine;
 
 public class FlashLight : MonoBehaviour
 {
-    public GameObject FlashLightObj; 
+    public GameObject Light;
+    public bool LightActive; 
 
-    // Start is called before the first frame update
     void Start()
     {
-        FlashLightObj.GetComponent<Light>().enabled = true; 
-    }
+        Light.SetActive(true);
+    } 
 
-    
-    public void TurnOffFlashLight()
+    void Update()
     {
         if(Input.GetKeyDown(KeyCode.F))
         {
-            FlashLightObj.GetComponent<Light>().enabled = false;
-        } 
-        else
-        {
-            FlashLightObj.GetComponent<Light>().enabled = true;
+            LightActive = !LightActive;
+
+            if(LightActive)
+            {
+                FlashLightActive();
+            } 
+
+            if(!LightActive)
+            {
+                FlashLightInactive();
+            }
         }
+    }
+
+    void FlashLightActive()
+    {
+        Light.SetActive(true);
+    } 
+
+    void FlashLightInactive()
+    {
+        Light.SetActive(false);
     }
 }
