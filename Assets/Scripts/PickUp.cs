@@ -3,12 +3,12 @@ using UnityEngine.UI;
 
 public class PickUp : MonoBehaviour
 {
-    public Transform theDest; 
-    
+    public Transform theDest;
+   
+
     void OnMouseDown()
     {
-        
-        GetComponent<Rigidbody>().useGravity = false;
+        GetComponent<Rigidbody>().useGravity = false; 
         GetComponent<Rigidbody>().freezeRotation = true;
         this.transform.position = theDest.position;
         this.transform.parent = GameObject.Find("Destination").transform;
@@ -18,6 +18,6 @@ public class PickUp : MonoBehaviour
     {
         this.transform.parent = null;
         GetComponent<Rigidbody>().useGravity = true;  
-        GetComponent<Rigidbody>().freezeRotation = false;
+        GetComponent<Rigidbody>().freezeRotation = false;  
     }
 }

@@ -9,4 +9,9 @@ public class ChaseTrigger : MonoBehaviour
         GetComponent<PatrolDrone>().enabled = false;
         GetComponent<EnemyPathFind>().enabled = true;
     }
+
+    public void OnTriggerExit(Collider col)
+    {
+        Destroy(gameObject);
+    }
 }
