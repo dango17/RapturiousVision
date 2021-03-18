@@ -8,12 +8,21 @@ public class BatterySnap : MonoBehaviour
     public Rigidbody rb;
 
     public GameObject PowerOff;
-    public GameObject PowerOn; 
+    public GameObject PowerOn;
+
+    public GameObject DoorPowerOff;
+    public GameObject DoorUnlocked; 
 
     public void Start()
-    {
-       PowerOff.GetComponent<Light>().enabled = true;
+    { 
+       //Start off
+       PowerOff.GetComponent<Light>().enabled = true;     
        PowerOn.GetComponent<Light>().enabled = false;
+       
+       //Door starts locked...Turn off box collider
+        DoorPowerOff.GetComponent<BoxCollider>.enabled = false;
+        //Door is locked, show red lock light
+        DoorUnlocked.GetComponent<Light>().enabled = false; 
     }
 
     public void OnTriggerEnter(Collider col)
