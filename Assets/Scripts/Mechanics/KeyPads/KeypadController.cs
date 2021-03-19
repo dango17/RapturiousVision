@@ -5,19 +5,28 @@ using UnityEngine.UI;
 
 public class KeypadController : MonoBehaviour
 {
-    public DoorController door;
+    [Header("Passwords")]
     public string password;
     public int passwordLimit;
     public Text passwordText;
+
+    [Header("Lights")]
+    public GameObject DoorPowerOff;
+    public GameObject DoorPowerOn; 
 
     [Header("Audio")]
     public AudioSource audioSource;
     public AudioClip correctSound;
     public AudioClip wrongSound;
 
+    public GameObject door; 
+
     private void Start()
     {
         passwordText.text = "";
+        door.GetComponent<DoorOpenTrue>().enabled = false;
+        DoorPowerOn.GetComponent<Light>().enabled = false;
+        DoorPowerOff.GetComponent<Light>().enabled = true;
     }
 
     public void PasswordEntry(string number)
@@ -50,7 +59,9 @@ public class KeypadController : MonoBehaviour
     {
         if (passwordText.text == password)
         {
-            door.lockedByPassword = false;
+            door.GetComponent<DoorOpenTrue>().enabled = true;
+            DoorPowerOn.GetComponent<Light>().enabled = true;
+            DoorPowerOff.GetComponent<Light>().enabled = false;
 
             if (audioSource != null)
                 audioSource.PlayOneShot(correctSound);
