@@ -11,7 +11,11 @@ public class DialougeTrigger : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.E))
         {
             FindObjectOfType<DialogeManager>().StartDialouge(dialouge);
-        }
-        
+        }                             
+    } 
+
+    void OnTriggerExit(Collider player)
+    {
+        FindObjectOfType<DialogeManager>().EndDialouge();
     }
 }
