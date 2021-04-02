@@ -393,8 +393,8 @@ MonoBehaviour:
   SwitchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../../LevelDesignSound/RapturiousVisionFmod/RapturiousVisionFmod.fspro
-  sourceBankPath: ..\..\LevelDesignSound\RapturiousVisionFmod\Build
+  sourceProjectPath: RapturiousVisionFmod/RapturiousVisionFmod.fspro
+  sourceBankPath: RapturiousVisionFmod\Build
   SourceBankPathUnformatted: 
   AutomaticEventLoading: 1
   BankLoadType: 0

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="EventFolder" id="{74e82fbe-3b2e-43aa-97f3-67f02d6c1555}">
+		<property name="name">
+			<value>PSA</value>
+		</property>
+		<relationship name="folder">
+			<destination>{5f89f5aa-ff86-4ac8-9f95-472df1df8fc9}</destination>
+		</relationship>
+	</object>
+</objects>
