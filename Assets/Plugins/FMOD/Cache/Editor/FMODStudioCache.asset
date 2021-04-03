@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: RapturiousVisionFmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637529814572870323
+  lastModified: 637529817909422628
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -42,7 +42,7 @@ MonoBehaviour:
   - {fileID: 4343292649948730375}
   StringsBanks:
   - {fileID: -8598860348785508921}
-  stringsBankWriteTime: 637529814572870323
+  stringsBankWriteTime: 637529817909422628
   cacheVersion: 6
 --- !u!114 &228185163149597548
 MonoBehaviour:
@@ -99,7 +99,7 @@ MonoBehaviour:
   Path: RapturiousVisionFmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637529814572840050
+  lastModified: 637529817909382733
   LoadResult: 0
   FileSizes: []
   Exists: 1
