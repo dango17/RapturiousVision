@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{5935fdbd-8bb8-4cb3-b53b-4c788e529ba4}">
+		<property name="assetPath">
+			<value>AlertNoise.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.9406802721088434</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8668ce2c-acce-4686-9119-e0c77d813886}</destination>
+		</relationship>
+	</object>
+</objects>

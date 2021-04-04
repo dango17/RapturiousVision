@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{95ffc6fc-e958-43c7-9b00-4627d5c4f97b}">
+		<property name="assetPath">
+			<value>ShipDrone.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>182.02689342403627</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8668ce2c-acce-4686-9119-e0c77d813886}</destination>
+		</relationship>
+	</object>
+</objects>
