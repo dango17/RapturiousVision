@@ -15,12 +15,150 @@ MonoBehaviour:
   Path: RapturiousVisionFmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637529817909422628
+  lastModified: 637531261547023276
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 700
+    Value: 1226
   Exists: 1
+--- !u!114 &-7752519160763143376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/InteractionSounds/KeypadSuccess
+  m_EditorClassIdentifier: 
+  Path: event:/InteractionSounds/KeypadSuccess
+  guid: 504f427be23caa4782da3aa9300b8fec
+  Banks:
+  - {fileID: 4343292649948730375}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4508473477400897881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/InteractionSounds/LeverPull
+  m_EditorClassIdentifier: 
+  Path: event:/InteractionSounds/LeverPull
+  guid: 2fb818640bc44e41a5e06a0411be0837
+  Banks:
+  - {fileID: 4343292649948730375}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1200185996254595317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/InteractionSounds/KeypadPress
+  m_EditorClassIdentifier: 
+  Path: event:/InteractionSounds/KeypadPress
+  guid: ba997f07f2ed36468c1e5d71ec80378e
+  Banks:
+  - {fileID: 4343292649948730375}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1061080456858750244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambient/ShipDroneCreaking
+  m_EditorClassIdentifier: 
+  Path: event:/Ambient/ShipDroneCreaking
+  guid: c828a1c72c31964e974cd84aa390a8d8
+  Banks:
+  - {fileID: 4343292649948730375}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-863098658940929969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambient/DroneAmbient
+  m_EditorClassIdentifier: 
+  Path: event:/Ambient/DroneAmbient
+  guid: 93b94ab576f52f47ab568256763020b3
+  Banks:
+  - {fileID: 4343292649948730375}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-449970704239865740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/InteractionSounds/DoorOpen
+  m_EditorClassIdentifier: 
+  Path: event:/InteractionSounds/DoorOpen
+  guid: 1d7e18f5e154bd459776eb3b452405df
+  Banks:
+  - {fileID: 4343292649948730375}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36,13 +174,23 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: -8598860348785508921}
   - {fileID: 4343292649948730375}
-  EditorEvents: []
+  EditorEvents:
+  - {fileID: -449970704239865740}
+  - {fileID: 5782306221449514227}
+  - {fileID: -4508473477400897881}
+  - {fileID: -7752519160763143376}
+  - {fileID: 7662172122417367209}
+  - {fileID: 5305069000391964439}
+  - {fileID: -863098658940929969}
+  - {fileID: -1200185996254595317}
+  - {fileID: -1061080456858750244}
+  - {fileID: 1926622961088476119}
   EditorParameters: []
   MasterBanks:
   - {fileID: 4343292649948730375}
   StringsBanks:
   - {fileID: -8598860348785508921}
-  stringsBankWriteTime: 637529817909422628
+  stringsBankWriteTime: 637531261547023276
   cacheVersion: 6
 --- !u!114 &228185163149597548
 MonoBehaviour:
@@ -84,6 +232,29 @@ MonoBehaviour:
   - Name: Desktop
     Value: 700
   Exists: 1
+--- !u!114 &1926622961088476119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/InteractionSounds/DoorClose
+  m_EditorClassIdentifier: 
+  Path: event:/InteractionSounds/DoorClose
+  guid: fe29ce317f5bed4c8a80427a46ae295b
+  Banks:
+  - {fileID: 4343292649948730375}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &4343292649948730375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99,7 +270,76 @@ MonoBehaviour:
   Path: RapturiousVisionFmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637529817909382733
+  lastModified: 637531261546990673
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &5305069000391964439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drone/DroneAlert
+  m_EditorClassIdentifier: 
+  Path: event:/Drone/DroneAlert
+  guid: 85dd51e1af7738428c718086ff735599
+  Banks:
+  - {fileID: 4343292649948730375}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5782306221449514227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambient/EnergyHummingAmbient
+  m_EditorClassIdentifier: 
+  Path: event:/Ambient/EnergyHummingAmbient
+  guid: 296011c7dd9c3344a68391050660ffce
+  Banks:
+  - {fileID: 4343292649948730375}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7662172122417367209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambient/HunterDroneAmbient
+  m_EditorClassIdentifier: 
+  Path: event:/Ambient/HunterDroneAmbient
+  guid: 63631b8e8dce7b498341adfa1e60d538
+  Banks:
+  - {fileID: 4343292649948730375}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
