@@ -19,7 +19,8 @@ public class KeypadController : MonoBehaviour
     public AudioClip correctSound;
     public AudioClip wrongSound;
 
-    public GameObject door; 
+    public GameObject door;
+    public Text PickUpPrompt; 
 
     private void Start()
     {
@@ -27,6 +28,16 @@ public class KeypadController : MonoBehaviour
         door.GetComponent<DoorOpenTrue>().enabled = false;
         DoorPowerOn.GetComponent<Light>().enabled = false;
         DoorPowerOff.GetComponent<Light>().enabled = true;
+    }
+
+    public void OnTriggerEnter()
+    {
+        PickUpPrompt.gameObject.SetActive(true);
+    }
+
+    public void OnTriggerExit()
+    {
+        PickUpPrompt.gameObject.SetActive(false);
     }
 
     public void PasswordEntry(string number)

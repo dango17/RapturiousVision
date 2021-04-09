@@ -496,6 +496,19 @@ MonoBehaviour:
     format: 0
     data: 
   shadowDatas: []
+--- !u!65 &506566586125436857
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5225179787703892376}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.65514565, y: 0.8559148, z: 2.5727487}
+  m_Center: {x: 0.013041496, y: -0.38734704, z: -0.8633858}
 --- !u!1 &7012555043960625582
 GameObject:
   m_ObjectHideFlags: 0
@@ -989,6 +1002,12 @@ PrefabInstance:
       objectReference: {fileID: 3976439272200373437}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5505781729a6b33418db6d74de8fa610, type: 3}
+--- !u!1 &5225179787703892376 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5288604539845741373, guid: 5505781729a6b33418db6d74de8fa610,
+    type: 3}
+  m_PrefabInstance: {fileID: 137206519080039077}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &9140275954922474379 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9169254177154595118, guid: 5505781729a6b33418db6d74de8fa610,

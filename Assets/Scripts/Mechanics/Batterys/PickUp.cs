@@ -5,7 +5,6 @@ public class PickUp : MonoBehaviour
 {
     public Transform theDest;
    
-
     void OnMouseDown()
     {
         GetComponent<Rigidbody>().useGravity = false; 
