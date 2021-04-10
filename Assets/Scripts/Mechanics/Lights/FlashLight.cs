@@ -9,7 +9,7 @@ public class FlashLight : MonoBehaviour
 
     void Start()
     {
-        Light.SetActive(true);
+        Light.SetActive(false);
     } 
 
     void Update()
