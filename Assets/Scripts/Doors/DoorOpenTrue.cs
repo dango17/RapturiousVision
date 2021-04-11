@@ -1,15 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class DoorOpenTrue : MonoBehaviour
 {
     // Sliding door
     public enum OpenDirection { x, y, z }
     public OpenDirection direction = OpenDirection.y;
-    public float openDistance = 3f; //How far should door slide (change direction by entering either a positive or a negative value)
-    public float openSpeed = 2.0f; //Increasing this value will make the door open faster
-    public Transform doorBody; //Door body Transform
+    public float openDistance = 3f; 
+    public float openSpeed = 2.0f; 
+    public Transform doorBody; 
+
+    public AudioSource doorSlide; 
 
     bool open = false;
 
@@ -49,6 +52,7 @@ public class DoorOpenTrue : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             open = true;
+            doorSlide.Play(); 
 
         }
     }
@@ -58,6 +62,7 @@ public class DoorOpenTrue : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            //doorSlide.Play();
             open = false;
         }
     }

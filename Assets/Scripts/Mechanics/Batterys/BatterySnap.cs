@@ -9,6 +9,7 @@ public class BatterySnap : MonoBehaviour
     public Transform BatteryDest;
     public Rigidbody rb;
 
+
     //Battery Slot lights
     [Header("Battery Slot Lights")]
     public GameObject BatteryPowerOff;
@@ -33,9 +34,10 @@ public class BatterySnap : MonoBehaviour
 
         //Door script off
         //Off Lights on (Red), On lights off (Green)
-        DoorEnable.GetComponent<DoorOpenTrue>().enabled = false;
+        DoorEnable.GetComponent<BoxCollider>().enabled = false;
         DoorPowerOff.GetComponent<Light>().enabled = true;
-        DoorPowerOn.GetComponent<Light>().enabled = false;
+        DoorPowerOn.GetComponent<Light>().enabled = false; 
+
     }
 
     //Once battery touches slot position
@@ -52,7 +54,7 @@ public class BatterySnap : MonoBehaviour
             BatteryPowerOff.GetComponent<Light>().enabled = false;
             BatteryPowerOn.GetComponent<Light>().enabled = true;
             //Enable door script true
-            DoorEnable.GetComponent<DoorOpenTrue>().enabled = true;
+            DoorEnable.GetComponent<BoxCollider>().enabled = true;
             DoorPowerOff.GetComponent<Light>().enabled = false;
             DoorPowerOn.GetComponent<Light>().enabled = true;
         }      
@@ -70,7 +72,7 @@ public class BatterySnap : MonoBehaviour
 
             //Door script off
             //Off Lights on (Red), On lights off (Green)
-            DoorEnable.GetComponent<DoorOpenTrue>().enabled = false;
+            DoorEnable.GetComponent<BoxCollider>().enabled = false;
             DoorPowerOff.GetComponent<Light>().enabled = true;
             DoorPowerOn.GetComponent<Light>().enabled = false;
         }           
