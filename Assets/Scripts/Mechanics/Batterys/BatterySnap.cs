@@ -8,6 +8,7 @@ public class BatterySnap : MonoBehaviour
     [Header("Batterys Grab pos & it's Rigidbody")]
     public Transform BatteryDest;
     public Rigidbody rb;
+    public AudioSource BatteryClick;
 
 
     //Battery Slot lights
@@ -57,6 +58,8 @@ public class BatterySnap : MonoBehaviour
             DoorEnable.GetComponent<BoxCollider>().enabled = true;
             DoorPowerOff.GetComponent<Light>().enabled = false;
             DoorPowerOn.GetComponent<Light>().enabled = true;
+
+            BatteryClick.Play(); 
         }      
     }
 

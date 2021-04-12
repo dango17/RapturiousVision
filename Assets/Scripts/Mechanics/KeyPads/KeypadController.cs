@@ -14,18 +14,13 @@ public class KeypadController : MonoBehaviour
     public GameObject DoorPowerOff;
     public GameObject DoorPowerOn; 
 
-    [Header("Audio")]
-    public AudioSource audioSource;
-    public AudioClip correctSound;
-    public AudioClip wrongSound;
-
     public GameObject door;
     public Text PickUpPrompt; 
 
     private void Start()
     {
         passwordText.text = "";
-        door.GetComponent<DoorOpenTrue>().enabled = false;
+        door.GetComponent<BoxCollider>().enabled = false;
         DoorPowerOn.GetComponent<Light>().enabled = false;
         DoorPowerOff.GetComponent<Light>().enabled = true;
     }
@@ -70,21 +65,15 @@ public class KeypadController : MonoBehaviour
     {
         if (passwordText.text == password)
         {
-            door.GetComponent<DoorOpenTrue>().enabled = true;
+            door.GetComponent<BoxCollider>().enabled = true;
             DoorPowerOn.GetComponent<Light>().enabled = true;
             DoorPowerOff.GetComponent<Light>().enabled = false;
-
-            if (audioSource != null)
-                audioSource.PlayOneShot(correctSound);
 
             passwordText.color = Color.green;
             StartCoroutine(waitAndClear());
         }
         else
-        {
-            if (audioSource != null)
-                audioSource.PlayOneShot(wrongSound);
-
+        {            
             passwordText.color = Color.red;
             StartCoroutine(waitAndClear());
         }
