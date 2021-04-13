@@ -5,7 +5,9 @@ using UnityEngine;
 public class FlashLight : MonoBehaviour
 {
     public GameObject Light;
-    public bool LightActive; 
+    public bool LightActive;
+
+    public AudioSource FlashLightClick; 
 
     void Start()
     {
@@ -16,6 +18,7 @@ public class FlashLight : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.F))
         {
+            FlashLightClick.Play(); 
             LightActive = !LightActive;
 
             if(LightActive)
@@ -26,6 +29,7 @@ public class FlashLight : MonoBehaviour
             if(!LightActive)
             {
                 FlashLightInactive();
+                
             }
         }
     }

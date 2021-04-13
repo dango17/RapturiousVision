@@ -10,6 +10,8 @@ public class LightSwitch : MonoBehaviour
 
     private bool on = false;
 
+    public AudioSource ButtonClick; 
+
     public void Start()
     {
         //light.SetActive(false);
@@ -23,12 +25,14 @@ public class LightSwitch : MonoBehaviour
         {
             light.SetActive(true);
             on = true;
+            ButtonClick.Play(); 
         }
 
         else if (player.tag == "Player" && Input.GetKeyDown(KeyCode.E) && on)
         {
             light.SetActive(false);
             on = false;
+            ButtonClick.Play();
         }
     } 
 
