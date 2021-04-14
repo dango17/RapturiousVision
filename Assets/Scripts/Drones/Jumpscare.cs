@@ -30,7 +30,7 @@ public class Jumpscare : MonoBehaviour
     IEnumerator LastForSoLong()
     { 
         //Keep jumpscare on screen for so Long
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(5);
         //Turn off jumpscare now
         EvilDroneUI.SetActive(false);
         //Can now also destory the enemy as a whole, dont need it anymore

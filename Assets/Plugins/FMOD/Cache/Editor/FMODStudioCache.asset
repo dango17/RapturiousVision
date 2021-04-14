@@ -15,11 +15,11 @@ MonoBehaviour:
   Path: RapturiousVisionFmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637531677376013242
+  lastModified: 637540156625012300
   LoadResult: 0
   FileSizes:
   - Name: 
-    Value: 1226
+    Value: 1422
   Exists: 1
 --- !u!114 &-7752519160763143376
 MonoBehaviour:
@@ -58,6 +58,75 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/InteractionSounds/LeverPull
   guid: 2fb818640bc44e41a5e06a0411be0837
+  Banks:
+  - {fileID: 4343292649948730375}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4311001419095857436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/InteractionSounds/LogBookOpen
+  m_EditorClassIdentifier: 
+  Path: event:/InteractionSounds/LogBookOpen
+  guid: 3a7ac5dffa1d574e972147a82f2f60ae
+  Banks:
+  - {fileID: 4343292649948730375}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2991820753936730196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drone/Jumpscare
+  m_EditorClassIdentifier: 
+  Path: event:/Drone/Jumpscare
+  guid: 9e7cc47cce53ab4880725dec8133ae4b
+  Banks:
+  - {fileID: 4343292649948730375}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2985912085645547052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambient/BrokenDownDrones
+  m_EditorClassIdentifier: 
+  Path: event:/Ambient/BrokenDownDrones
+  guid: ac9b386788f3654fba7f995da313f4ca
   Banks:
   - {fileID: 4343292649948730375}
   IsStream: 0
@@ -176,7 +245,6 @@ MonoBehaviour:
   - {fileID: 4343292649948730375}
   EditorEvents:
   - {fileID: -449970704239865740}
-  - {fileID: 5782306221449514227}
   - {fileID: -4508473477400897881}
   - {fileID: -7752519160763143376}
   - {fileID: 7662172122417367209}
@@ -185,12 +253,17 @@ MonoBehaviour:
   - {fileID: -1200185996254595317}
   - {fileID: -1061080456858750244}
   - {fileID: 1926622961088476119}
+  - {fileID: 7559780624293560825}
+  - {fileID: -4311001419095857436}
+  - {fileID: -2991820753936730196}
+  - {fileID: -2985912085645547052}
+  - {fileID: 2078298383440624024}
   EditorParameters: []
   MasterBanks:
   - {fileID: 4343292649948730375}
   StringsBanks:
   - {fileID: -8598860348785508921}
-  stringsBankWriteTime: 637531677376013242
+  stringsBankWriteTime: 637540156625012300
   cacheVersion: 6
 --- !u!114 &228185163149597548
 MonoBehaviour:
@@ -255,6 +328,29 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &2078298383440624024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/InteractionSounds/LogBookClose
+  m_EditorClassIdentifier: 
+  Path: event:/InteractionSounds/LogBookClose
+  guid: f5b9784032fe0b4f94ead2150bc82c5d
+  Banks:
+  - {fileID: 4343292649948730375}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &4343292649948730375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -270,7 +366,7 @@ MonoBehaviour:
   Path: RapturiousVisionFmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637531677376003270
+  lastModified: 637540156624952555
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -310,6 +406,29 @@ MonoBehaviour:
   m_Name: event:/Ambient/EnergyHummingAmbient
   m_EditorClassIdentifier: 
   Path: event:/Ambient/EnergyHummingAmbient
+  guid: 296011c7dd9c3344a68391050660ffce
+  Banks:
+  - {fileID: 4343292649948730375}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7559780624293560825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambient/TutorialMoniters
+  m_EditorClassIdentifier: 
+  Path: event:/Ambient/TutorialMoniters
   guid: 296011c7dd9c3344a68391050660ffce
   Banks:
   - {fileID: 4343292649948730375}
