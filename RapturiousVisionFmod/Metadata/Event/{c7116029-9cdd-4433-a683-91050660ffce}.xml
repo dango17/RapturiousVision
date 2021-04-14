@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{c7116029-9cdd-4433-a683-91050660ffce}">
 		<property name="name">
-			<value>EnergyHummingAmbient</value>
+			<value>TutorialMoniters</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -90,7 +90,11 @@
 			<destination>{f55aca32-9275-4a55-ac72-c661fbe343b5}</destination>
 		</relationship>
 	</object>
-	<object class="MultiSound" id="{00ee9d92-23ea-416e-a368-39e102b7d493}" />
+	<object class="MultiSound" id="{00ee9d92-23ea-416e-a368-39e102b7d493}">
+		<relationship name="sounds">
+			<destination>{5fa945f1-74c2-44fc-88e5-fe3ef7fa2a86}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{626e7d1e-f5e4-4327-980d-a58deb4941b9}">
 		<relationship name="effects">
 			<destination>{0e7d53be-51b5-49fe-9422-26a026d4028c}</destination>
@@ -118,6 +122,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a15c3703-5bc4-47a9-bf06-6dc9728a7482}" />
+	<object class="SingleSound" id="{5fa945f1-74c2-44fc-88e5-fe3ef7fa2a86}">
+		<property name="looping">
+			<value>true</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{927e9bcb-9db8-4a18-8d30-b4dd7d2dad9d}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{0e7d53be-51b5-49fe-9422-26a026d4028c}" />
 	<object class="MixerBusEffectChain" id="{7034be9f-7e8c-4a67-bef3-c355b65fbf7a}">
 		<relationship name="effects">
