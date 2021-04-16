@@ -164,6 +164,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6550623410335434990}
   - component: {fileID: -785099962575570188}
+  - component: {fileID: 1397080749478472548}
   m_Layer: 0
   m_Name: FootLocker
   m_TagString: Untagged
@@ -225,6 +226,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &1397080749478472548
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7832644378256489213}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.659195, y: 0.7936246, z: 0.6370726}
+  m_Center: {x: -0.017669678, y: 0.009719804, z: 0.0034993887}
 --- !u!1 &7908844654856965751
 GameObject:
   m_ObjectHideFlags: 0
