@@ -8,29 +8,25 @@ public class DialougeTrigger : MonoBehaviour
     public Dialouge dialouge;
     public Text PickUpPrompt;
 
-    public bool DialougeActive = false; 
+    public Text NoteAddedPrompt;
 
-    void start()
-    {
-        //PickUpPrompt.gameObject.SetActive(false); 
-    }
-
+    //Player is close, enable prompt
     public void OnTriggerEnter()
     {
         PickUpPrompt.gameObject.SetActive(true);
     }
 
+    //Player is staying inside area
     void OnTriggerStay(Collider player)
     {
-        if (Input.GetKeyDown(KeyCode.E) && DialougeActive == true)
-        {
-            DialougeActive = true; 
+        //Press E, Open the logbook
+        if (Input.GetKeyDown(KeyCode.E))
+        { 
             FindObjectOfType<DialogeManager>().StartDialouge(dialouge);
             PickUpPrompt.gameObject.SetActive(false);
         }
-        else if (Input.GetKeyDown(KeyCode.E) && DialougeActive == false)
+        if (Input.GetKeyDown(KeyCode.R))
         {
-            DialougeActive = false; 
             PickUpPrompt.gameObject.SetActive(true);
             FindObjectOfType<DialogeManager>().EndDialouge();
         }
