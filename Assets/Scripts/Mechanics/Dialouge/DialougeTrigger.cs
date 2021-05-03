@@ -8,7 +8,10 @@ public class DialougeTrigger : MonoBehaviour
     public Dialouge dialouge;
     public Text PickUpPrompt;
 
-    public Text NoteAddedPrompt;
+    public Text NotepadDiscovered;
+    public Text NotePadUnknown; 
+
+    public Text EnableThisInNotebook; 
 
     //Player is close, enable prompt
     public void OnTriggerEnter()
@@ -21,7 +24,13 @@ public class DialougeTrigger : MonoBehaviour
     {
         //Press E, Open the logbook
         if (Input.GetKeyDown(KeyCode.E))
-        { 
+        {
+            EnableThisInNotebook.gameObject.SetActive(true);
+
+            NotePadUnknown.gameObject.SetActive(false);
+            NotepadDiscovered.gameObject.SetActive(true); 
+
+            StartCoroutine(FlashNoteBookPrompt());
             FindObjectOfType<DialogeManager>().StartDialouge(dialouge);
             PickUpPrompt.gameObject.SetActive(false);
         }
@@ -31,6 +40,12 @@ public class DialougeTrigger : MonoBehaviour
             FindObjectOfType<DialogeManager>().EndDialouge();
         }
     } 
+
+    IEnumerator FlashNoteBookPrompt()
+    {
+        yield return new WaitForSeconds(3);
+        EnableThisInNotebook.gameObject.SetActive(false);
+    }
 
     void OnTriggerExit(Collider player)
     {
