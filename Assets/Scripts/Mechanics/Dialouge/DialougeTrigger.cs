@@ -4,14 +4,20 @@ using UnityEngine;
 using UnityEngine.UI; 
 
 public class DialougeTrigger : MonoBehaviour
-{
+{ 
+    [Header("Dialouge")]
     public Dialouge dialouge;
     public Text PickUpPrompt;
 
+    [Header("NoteBook-Variables")]
     public Text NotepadDiscovered;
     public Text NotePadUnknown; 
 
-    public Text EnableThisInNotebook; 
+    [Header("UI-Prompts")]
+    public Text NotebookAddedPrompt;
+
+    [Header("Minimap-Icon")]
+    public GameObject minimapIconOff; 
 
     //Player is close, enable prompt
     public void OnTriggerEnter()
@@ -25,7 +31,8 @@ public class DialougeTrigger : MonoBehaviour
         //Press E, Open the logbook
         if (Input.GetKeyDown(KeyCode.E))
         {
-            EnableThisInNotebook.gameObject.SetActive(true);
+            NotebookAddedPrompt.gameObject.SetActive(true);
+            minimapIconOff.SetActive(false); 
 
             NotePadUnknown.gameObject.SetActive(false);
             NotepadDiscovered.gameObject.SetActive(true); 
@@ -44,7 +51,7 @@ public class DialougeTrigger : MonoBehaviour
     IEnumerator FlashNoteBookPrompt()
     {
         yield return new WaitForSeconds(3);
-        EnableThisInNotebook.gameObject.SetActive(false);
+        NotebookAddedPrompt.gameObject.SetActive(false);
     }
 
     void OnTriggerExit(Collider player)
