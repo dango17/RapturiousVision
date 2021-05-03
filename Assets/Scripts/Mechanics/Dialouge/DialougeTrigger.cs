@@ -8,6 +8,7 @@ public class DialougeTrigger : MonoBehaviour
     [Header("Dialouge")]
     public Dialouge dialouge;
     public Text PickUpPrompt;
+    public GameObject LogbookScreen; 
 
     [Header("NoteBook-Variables")]
     public Text NotepadDiscovered;
@@ -17,7 +18,9 @@ public class DialougeTrigger : MonoBehaviour
     public Text NotebookAddedPrompt;
 
     [Header("Minimap-Icon")]
-    public GameObject minimapIconOff; 
+    public GameObject minimapIconOff;
+
+    public bool IsOpen;
 
     //Player is close, enable prompt
     public void OnTriggerEnter()
@@ -29,34 +32,42 @@ public class DialougeTrigger : MonoBehaviour
     void OnTriggerStay(Collider player)
     {
         //Press E, Open the logbook
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E) && IsOpen == false)
         {
-            NotebookAddedPrompt.gameObject.SetActive(true);
+            LogbookScreen.SetActive(true);
+            //Start Logbook Popup
+            FindObjectOfType<DialogeManager>().StartDialouge(dialouge);
+            //Player has opened logbook, set to true 
+            IsOpen = true;          
+            //Remove pick up UI promopt
+            PickUpPrompt.gameObject.SetActive(false);
+            //Turn off MiniMap Icon, player has already collected
             minimapIconOff.SetActive(false); 
-
+            //Add notes to Notepad/Turn on and off
             NotePadUnknown.gameObject.SetActive(false);
             NotepadDiscovered.gameObject.SetActive(true); 
-
+            //Start Coroutine to remove NoteUI Prompt
             StartCoroutine(FlashNoteBookPrompt());
-            FindObjectOfType<DialogeManager>().StartDialouge(dialouge);
-            PickUpPrompt.gameObject.SetActive(false);
+            NotebookAddedPrompt.gameObject.SetActive(true);          
         }
-        if (Input.GetKeyDown(KeyCode.R))
+        else if (Input.GetKeyDown(KeyCode.E) && IsOpen == true)
         {
             PickUpPrompt.gameObject.SetActive(true);
-            FindObjectOfType<DialogeManager>().EndDialouge();
+            LogbookScreen.SetActive(false);
+            FindObjectOfType<DialogeManager>().EndDialouge();         
         }
     } 
 
     IEnumerator FlashNoteBookPrompt()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(6);
         NotebookAddedPrompt.gameObject.SetActive(false);
     }
 
     void OnTriggerExit(Collider player)
     {
-        FindObjectOfType<DialogeManager>().EndDialouge();
+        LogbookScreen.SetActive(false);
         PickUpPrompt.gameObject.SetActive(false);
+        FindObjectOfType<DialogeManager>().EndDialouge();
     }
 }

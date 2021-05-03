@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class NotebookManager : MonoBehaviour
 {
-    public static bool NotebookIsOpen = false;
+    public bool NotebookIsOpen;
     public GameObject NotebookScreen; 
 
     void Update()
@@ -13,11 +13,11 @@ public class NotebookManager : MonoBehaviour
         {
             NotebookScreen.SetActive(true);
             NotebookIsOpen = true; 
-        }
-        if (Input.GetKeyDown(KeyCode.E) && NotebookIsOpen == true)
+        } 
+        else if(Input.GetKeyDown(KeyCode.Tab) && NotebookIsOpen == true)
         {
-            NotebookIsOpen = false;
             NotebookScreen.SetActive(false);
+            NotebookIsOpen = false; 
         }
-    } 
+    }  
 }
