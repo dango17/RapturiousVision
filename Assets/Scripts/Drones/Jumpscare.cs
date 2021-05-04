@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement; 
 
 public class Jumpscare : MonoBehaviour
 {
@@ -35,5 +36,8 @@ public class Jumpscare : MonoBehaviour
         EvilDroneUI.SetActive(false);
         //Can now also destory the enemy as a whole, dont need it anymore
         Destroy(EnemyChasing.gameObject);
+
+        //Player is dead, send them to the shadow realm 
+        SceneManager.LoadScene("Death");
     } 
 }
