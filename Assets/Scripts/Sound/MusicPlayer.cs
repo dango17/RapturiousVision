@@ -7,6 +7,13 @@ public class MusicPlayer : MonoBehaviour
     public AudioClip[] clips; 
     private AudioSource audioSource; 
 
+    void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+        DontDestroyOnLoad(transform.gameObject);
+        audioSource = GetComponent<AudioSource>();
+    }
+
     void Start()
     {
         audioSource = FindObjectOfType<AudioSource>();

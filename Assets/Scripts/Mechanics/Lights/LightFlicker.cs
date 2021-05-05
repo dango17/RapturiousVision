@@ -10,8 +10,8 @@ public class LightFlicker : MonoBehaviour
     public float MaxTime;
     public float Timer;
 
-    public AudioSource AS;
-    public AudioClip LightAudio;
+    //public AudioSource AS;
+    //public AudioClip LightAudio;
 
     void start ()
     {
@@ -32,7 +32,7 @@ public class LightFlicker : MonoBehaviour
         {
             lightFlicker.enabled = !lightFlicker.enabled;
             Timer = Random.Range(MinTime, MaxTime);
-            AS.PlayOneShot(LightAudio);
+           // AS.PlayOneShot(LightAudio);
         }
     }
 }
