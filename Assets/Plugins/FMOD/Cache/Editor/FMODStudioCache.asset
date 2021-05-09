@@ -1,5 +1,28 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8902175493902417637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AiVoiceLines/VoiceLine 15
+  m_EditorClassIdentifier: 
+  Path: event:/AiVoiceLines/VoiceLine 15
+  guid: aad06c4c3729f74da67e412a3f68ff38
+  Banks:
+  - {fileID: 4343292649948730375}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-8598860348785508921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15,12 +38,58 @@ MonoBehaviour:
   Path: RapturiousVisionFmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637540156625012300
+  lastModified: 637559168696914439
   LoadResult: 0
   FileSizes:
   - Name: 
-    Value: 1422
+    Value: 1958
   Exists: 1
+--- !u!114 &-8382283569857027686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AiVoiceLines/VoiceLine 1
+  m_EditorClassIdentifier: 
+  Path: event:/AiVoiceLines/VoiceLine 1
+  guid: d7afd0ea04009d4b96e737374240d10e
+  Banks:
+  - {fileID: 4343292649948730375}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-8016158544368560830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AiVoiceLines/VoiceLine 10
+  m_EditorClassIdentifier: 
+  Path: event:/AiVoiceLines/VoiceLine 10
+  guid: bcfa7faaa9fb744090505acacbe70edc
+  Banks:
+  - {fileID: 4343292649948730375}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-7752519160763143376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35,6 +104,98 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/InteractionSounds/KeypadSuccess
   guid: 504f427be23caa4782da3aa9300b8fec
+  Banks:
+  - {fileID: 4343292649948730375}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6262507271950539196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AiVoiceLines/VoiceLine 2
+  m_EditorClassIdentifier: 
+  Path: event:/AiVoiceLines/VoiceLine 2
+  guid: ec6c8602333ef04597d88040902361f2
+  Banks:
+  - {fileID: 4343292649948730375}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5188882017067136555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AiVoiceLines/VoiceLine 3
+  m_EditorClassIdentifier: 
+  Path: event:/AiVoiceLines/VoiceLine 3
+  guid: 71c452f04bc66e46b50934d91744967a
+  Banks:
+  - {fileID: 4343292649948730375}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5043990027814776048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AiVoiceLines/VoiceLine 5
+  m_EditorClassIdentifier: 
+  Path: event:/AiVoiceLines/VoiceLine 5
+  guid: bca6ee0259ff914dbc2075b6bbfd9c36
+  Banks:
+  - {fileID: 4343292649948730375}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4863222959718525883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AiVoiceLines/VoiceLine 9
+  m_EditorClassIdentifier: 
+  Path: event:/AiVoiceLines/VoiceLine 9
+  guid: 024cbd9e6c7fc5479d468dce9432e3c1
   Banks:
   - {fileID: 4343292649948730375}
   IsStream: 0
@@ -90,6 +251,52 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-3763707110657766312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AiVoiceLines/VoiceLine 8
+  m_EditorClassIdentifier: 
+  Path: event:/AiVoiceLines/VoiceLine 8
+  guid: 2d2c1135d4ce25488e8382d27b83385a
+  Banks:
+  - {fileID: 4343292649948730375}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3136711028843704630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AiVoiceLines/VoiceLine 7
+  m_EditorClassIdentifier: 
+  Path: event:/AiVoiceLines/VoiceLine 7
+  guid: 47cc1607528f304fbb349178d1f62c4a
+  Banks:
+  - {fileID: 4343292649948730375}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-2991820753936730196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -127,6 +334,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Ambient/BrokenDownDrones
   guid: ac9b386788f3654fba7f995da313f4ca
+  Banks:
+  - {fileID: 4343292649948730375}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1516077717766688533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AiVoiceLines/VoiceLine 13
+  m_EditorClassIdentifier: 
+  Path: event:/AiVoiceLines/VoiceLine 13
+  guid: 8646a835f3b06f48b962492e7d7f6ea3
   Banks:
   - {fileID: 4343292649948730375}
   IsStream: 0
@@ -258,12 +488,27 @@ MonoBehaviour:
   - {fileID: -2991820753936730196}
   - {fileID: -2985912085645547052}
   - {fileID: 2078298383440624024}
+  - {fileID: -4863222959718525883}
+  - {fileID: 8438655470643871092}
+  - {fileID: -3763707110657766312}
+  - {fileID: -3136711028843704630}
+  - {fileID: 1892812450027963692}
+  - {fileID: -5188882017067136555}
+  - {fileID: 2950177251785430968}
+  - {fileID: -1516077717766688533}
+  - {fileID: 6193266294542728869}
+  - {fileID: -8902175493902417637}
+  - {fileID: -5043990027814776048}
+  - {fileID: -8016158544368560830}
+  - {fileID: -8382283569857027686}
+  - {fileID: -6262507271950539196}
+  - {fileID: 9061361367589433057}
   EditorParameters: []
   MasterBanks:
   - {fileID: 4343292649948730375}
   StringsBanks:
   - {fileID: -8598860348785508921}
-  stringsBankWriteTime: 637540156625012300
+  stringsBankWriteTime: 637559168696914439
   cacheVersion: 6
 --- !u!114 &228185163149597548
 MonoBehaviour:
@@ -305,6 +550,29 @@ MonoBehaviour:
   - Name: Desktop
     Value: 700
   Exists: 1
+--- !u!114 &1892812450027963692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AiVoiceLines/VoiceLine 4
+  m_EditorClassIdentifier: 
+  Path: event:/AiVoiceLines/VoiceLine 4
+  guid: 59df726f5a382044a40ca7be07b84b8e
+  Banks:
+  - {fileID: 4343292649948730375}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &1926622961088476119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -351,6 +619,29 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &2950177251785430968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AiVoiceLines/VoiceLine 6
+  m_EditorClassIdentifier: 
+  Path: event:/AiVoiceLines/VoiceLine 6
+  guid: 7bbacca7e1989e46b5a2c49714f1fffa
+  Banks:
+  - {fileID: 4343292649948730375}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &4343292649948730375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -366,7 +657,7 @@ MonoBehaviour:
   Path: RapturiousVisionFmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637542693509300227
+  lastModified: 637559168696864581
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -416,6 +707,29 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &6193266294542728869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AiVoiceLines/VoiceLine 12
+  m_EditorClassIdentifier: 
+  Path: event:/AiVoiceLines/VoiceLine 12
+  guid: 8e2d1d8be6021a4dae25d1526f733ffd
+  Banks:
+  - {fileID: 4343292649948730375}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &7559780624293560825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -453,6 +767,52 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Ambient/HunterDroneAmbient
   guid: 63631b8e8dce7b498341adfa1e60d538
+  Banks:
+  - {fileID: 4343292649948730375}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8438655470643871092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AiVoiceLines/VoiceLine 14
+  m_EditorClassIdentifier: 
+  Path: event:/AiVoiceLines/VoiceLine 14
+  guid: 2a169b010a42d441b4b91cd90d7d1612
+  Banks:
+  - {fileID: 4343292649948730375}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &9061361367589433057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AiVoiceLines/VoiceLine 11
+  m_EditorClassIdentifier: 
+  Path: event:/AiVoiceLines/VoiceLine 11
+  guid: f10c00828304d644ab286455f2a22a32
   Banks:
   - {fileID: 4343292649948730375}
   IsStream: 0
