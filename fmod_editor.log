@@ -9,7 +9,7 @@
 [LOG] DownMix::init                            : done.
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 00000223B19F4A98 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0000021B2627CE38 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -19,183 +19,10 @@
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000223347BB968
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000223347BB968
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000223347BA1C8
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000223347BA1C8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000223347BE6F8
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000223347BE6F8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000223347BF478
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000223347BF478
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000223347BCA48
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000223347BCA48
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000223347BF628
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000223347BF628
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000223347BA6D8
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000223347BA6D8
-[LOG] SystemI::createSound                     : filename = RapturiousVisionFmod/Build/Desktop/Master.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 00000223347BEDB8 : node = 000002241C123AA0
-[LOG] SystemI::createSound                     : add node to async list : head = 00000223A2DDF478.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000223347BEDB8
-[LOG] SystemI::createSoundInternal             :     Create name='RapturiousVisionFmod/Build/Desktop/Master.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2920384
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 41120
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000002241C123BB0
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2920384
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 41120
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='DroneAmbient', format=5, channels=2, frequency=48000, lengthbytes=258688, lengthpcm=1165152, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.145819.
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000543C04F5A8
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 00007FFAF6A57B10
-[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 00007FFAF6A57AE0
-[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 00007FFAF6A57BE0
-[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 00007FFAF6A57CA0
-[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 00000223990FEF98
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            :     register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             :     Sample 0/1: name='AlertNoise', format=5, channels=2, frequency=48000, lengthbytes=32032, lengthpcm=141152, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.706338.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000223347BEDB8
-[LOG] SystemI::createSound                     : filename = RapturiousVisionFmod/Build/Desktop/Master.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 000002241C3995D8 : node = 00000223EED41BC0
-[LOG] SystemI::createSound                     : add node to async list : head = 00000223A2DDF478.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000002241C3995D8
-[LOG] SystemI::createSoundInternal             :     Create name='RapturiousVisionFmod/Build/Desktop/Master.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2920384
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 41120
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000223EED41CD0
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='DroneAmbient', format=5, channels=2, frequency=48000, lengthbytes=258688, lengthpcm=1165152, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.145819.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000002241C3995D8
-[LOG] SoundI::release                          : DroneAmbient (00000223347BEDB8)
-[LOG] SoundI::release                          :     DroneAmbient (00000223714DFFF8)
-[LOG] SoundI::release                          :     DroneAmbient (000002232A81B4B8)
-[LOG] SoundI::release                          : DroneAmbient (000002241C3995D8)
-[LOG] SoundI::release                          :     DroneAmbient (00000223714E0338)
-[LOG] SoundI::release                          :     DroneAmbient (000002232A81BD28)
-[LOG] SoundI::release                          : DroneBroken (000002237EF85E38)
-[LOG] SoundI::release                          :     DroneBroken (0000022370E24628)
-[LOG] SoundI::release                          :     DroneBroken (00000223347BD2B8)
-[LOG] SoundI::release                          : DroneBroken (000002237EF83FD8)
-[LOG] SoundI::release                          :     DroneBroken (0000022316674808)
-[LOG] SoundI::release                          :     DroneBroken (00000223347BF478)
-[LOG] SoundI::release                          : DroneBroken (000002237EF86A08)
-[LOG] SoundI::release                          :     DroneBroken (0000022370E25188)
-[LOG] SoundI::release                          :     DroneBroken (00000223347BE8A8)
-[LOG] SoundI::release                          : DroneBroken (000002237EF81E18)
-[LOG] SoundI::release                          :     DroneBroken (00000223166737C8)
-[LOG] SoundI::release                          :     DroneBroken (00000223347BDCD8)
-[LOG] SoundI::release                          : DroneBroken (000002237EF829E8)
-[LOG] SoundI::release                          :     DroneBroken (0000022316675028)
-[LOG] SoundI::release                          :     DroneBroken (00000223347BA6D8)
-[LOG] SoundI::release                          : DroneBroken (000002237EF7FE08)
-[LOG] SoundI::release                          :     DroneBroken (000002234F6BC328)
-[LOG] SoundI::release                          :     DroneBroken (00000223347BC388)
-[LOG] SoundI::release                          : DroneBroken (000002237EF83AC8)
-[LOG] SoundI::release                          :     DroneBroken (0000022316673628)
-[LOG] SoundI::release                          :     DroneBroken (00000223347BBB18)
-[LOG] SoundI::release                          : TutorialMoniters (000002237EF81758)
-[LOG] SoundI::release                          :     TutorialMoniters (000002234F6BA788)
-[LOG] SoundI::release                          :     TutorialMoniters (00000223347BCA48)
-[LOG] SoundI::release                          : TutorialMoniters (000002237EF80318)
-[LOG] SoundI::release                          :     TutorialMoniters (000002234F6BB2E8)
-[LOG] SoundI::release                          :     TutorialMoniters (00000223347BF7D8)
-[LOG] SoundI::release                          : TutorialMoniters (000002237EF83258)
-[LOG] SoundI::release                          :     TutorialMoniters (000002234F6B9748)
-[LOG] SoundI::release                          :     TutorialMoniters (00000223347BC898)
-[LOG] SoundI::release                          : TutorialMoniters (000002237EF84338)
-[LOG] SoundI::release                          :     TutorialMoniters (000002234F6BBFE8)
-[LOG] SoundI::release                          :     TutorialMoniters (00000223347BCBF8)
-[LOG] SoundI::release                          : TutorialMoniters (000002237EF7F8F8)
-[LOG] SoundI::release                          :     TutorialMoniters (000002234F6BC188)
-[LOG] SoundI::release                          :     TutorialMoniters (00000223347BEA58)
-[LOG] SoundI::release                          : TutorialMoniters (000002237EF81C68)
-[LOG] SoundI::release                          :     TutorialMoniters (000002234F6B95A8)
-[LOG] SoundI::release                          :     TutorialMoniters (00000223347BABE8)
-[LOG] SoundI::release                          : TutorialMoniters (000002237EF7F088)
-[LOG] SoundI::release                          :     TutorialMoniters (000002234F6BB148)
-[LOG] SoundI::release                          :     TutorialMoniters (00000223347BFB38)
-[LOG] SoundI::release                          : TutorialMoniters (000002237EF85778)
-[LOG] SoundI::release                          :     TutorialMoniters (000002234F6BCB48)
-[LOG] SoundI::release                          :     TutorialMoniters (00000223347BF628)
-[LOG] SoundI::release                          : TutorialMoniters (000002237EF850B8)
-[LOG] SoundI::release                          :     TutorialMoniters (000002234F6BA928)
-[LOG] SoundI::release                          :     TutorialMoniters (00000223347BD108)
-[LOG] SoundI::release                          : TutorialMoniters (000002237EF844E8)
-[LOG] SoundI::release                          :     TutorialMoniters (000002234F6BB968)
-[LOG] SoundI::release                          :     TutorialMoniters (00000223347BE1E8)
-[LOG] SoundI::release                          : TutorialMoniters (000002237EF83918)
-[LOG] SoundI::release                          :     TutorialMoniters (000002234F6BBE48)
-[LOG] SoundI::release                          :     TutorialMoniters (00000223347BB968)
-[LOG] SoundI::release                          : TutorialMoniters (000002237EF81AB8)
-[LOG] SoundI::release                          :     TutorialMoniters (000002234F6BAE08)
-[LOG] SoundI::release                          :     TutorialMoniters (00000223347BCF58)
-[LOG] SoundI::release                          : TutorialMoniters (000002237EF80828)
-[LOG] SoundI::release                          :     TutorialMoniters (000002234F6BBCA8)
-[LOG] SoundI::release                          :     TutorialMoniters (00000223347B9E68)
-[LOG] SoundI::release                          : TutorialMoniters (000002237EF80678)
-[LOG] SoundI::release                          :     TutorialMoniters (000002234F6BAC68)
-[LOG] SoundI::release                          :     TutorialMoniters (00000223347BF988)
-[LOG] SoundI::release                          : TutorialMoniters (000002237EF855C8)
-[LOG] SoundI::release                          :     TutorialMoniters (0000022316674B48)
-[LOG] SoundI::release                          :     TutorialMoniters (00000223347BE398)
-[LOG] SoundI::release                          : TutorialMoniters (000002237EF830A8)
-[LOG] SoundI::release                          :     TutorialMoniters (000002234F6BB628)
-[LOG] SoundI::release                          :     TutorialMoniters (00000223347BAD98)
-[LOG] SoundI::release                          : TutorialMoniters (000002237EF83C78)
-[LOG] SoundI::release                          :     TutorialMoniters (000002234F6BA5E8)
-[LOG] SoundI::release                          :     TutorialMoniters (00000223347BC1D8)
-[LOG] SoundI::release                          : TutorialMoniters (000002237EF7F238)
-[LOG] SoundI::release                          :     TutorialMoniters (0000022316675EC8)
-[LOG] SoundI::release                          :     TutorialMoniters (00000223347BC538)
-[LOG] SoundI::release                          : TutorialMoniters (000002237EF81908)
-[LOG] SoundI::release                          :     TutorialMoniters (000002234F6BA448)
-[LOG] SoundI::release                          :     TutorialMoniters (00000223347BCDA8)
-[LOG] SoundI::release                          : TutorialMoniters (000002237EF85418)
-[LOG] SoundI::release                          :     TutorialMoniters (0000022316673E48)
-[LOG] SoundI::release                          :     TutorialMoniters (00000223347BAA38)
-[LOG] SoundI::release                          : TutorialMoniters (000002237EF84BA8)
-[LOG] SoundI::release                          :     TutorialMoniters (000002234F6BB488)
-[LOG] SoundI::release                          :     TutorialMoniters (00000223347BE6F8)
-[LOG] SoundI::release                          : TutorialMoniters (000002237EF83408)
-[LOG] SoundI::release                          :     TutorialMoniters (0000022316675D28)
-[LOG] SoundI::release                          :     TutorialMoniters (00000223347BA1C8)
-[LOG] SoundI::release                          : TutorialMoniters (000002237EF81FC8)
-[LOG] SoundI::release                          :     TutorialMoniters (000002234F6BCCE8)
-[LOG] SoundI::release                          :     TutorialMoniters (00000223347BA888)
-[LOG] SoundI::release                          : TutorialMoniters (000002237EF849F8)
-[LOG] SoundI::release                          :     TutorialMoniters (000002234F6BBB08)
-[LOG] SoundI::release                          :     TutorialMoniters (00000223347BD618)
-[LOG] SoundI::release                          :  (00000223990BDED8)
-[LOG] SoundI::release                          :     AlertNoise (00000223714DF978)
-[LOG] SoundI::release                          :  (0000022381A84098)
-[LOG] SoundI::release                          :     HunterAmbience (0000022316675B88)
-[LOG] Thread::callback                         : FMOD Studio update thread finished.
-[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
-[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
-[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
-[LOG] LiveUpdate::release                      : 
-[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
-[LOG] Thread::callback                         : FMOD stream thread finished.
-[LOG] Thread::callback                         : FMOD mixer thread finished.
-[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
-[LOG] SystemI::close                           : Closed.
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Thread::callback                         : FMOD Studio sample load thread finished.
 [LOG] LiveUpdate::release                      : 
@@ -203,5 +30,3 @@
 [LOG] Thread::callback                         : FMOD stream thread finished.
 [LOG] Thread::callback                         : FMOD mixer thread finished.
 [LOG] SystemI::close                           : Closed.
-[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
-[LOG] Thread::callback                         : FMOD file thread finished.
