@@ -10,4 +10,8 @@ public class CheatDeath : MonoBehaviour
     {
         CheatdeathUI.SetActive(true);
     }
+    public void OnTriggerExit()
+    {
+        CheatdeathUI.SetActive(false);
+    }
 }
