@@ -38,7 +38,7 @@ MonoBehaviour:
   Path: RapturiousVisionFmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637561641831964051
+  lastModified: 637559168696914439
   LoadResult: 0
   FileSizes:
   - Name: 
@@ -508,7 +508,7 @@ MonoBehaviour:
   - {fileID: 4343292649948730375}
   StringsBanks:
   - {fileID: -8598860348785508921}
-  stringsBankWriteTime: 637561641831964051
+  stringsBankWriteTime: 637559168696914439
   cacheVersion: 6
 --- !u!114 &228185163149597548
 MonoBehaviour:
@@ -657,7 +657,7 @@ MonoBehaviour:
   Path: RapturiousVisionFmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637561641831884254
+  lastModified: 637559168696864581
   LoadResult: 0
   FileSizes: []
   Exists: 1
