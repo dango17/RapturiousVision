@@ -12,6 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Level/Level.unity
     guid: 4c4fdfb8dadc31d48b04fe7cbcaf0de0
   - enabled: 1
-    path: Assets/Scenes/Death.unity
+    path: Assets/Scenes/Respawns/Death.unity
     guid: d9ab73acb3f33974b8bb5e0133d47755
+  - enabled: 1
+    path: Assets/Scenes/Respawns/Death2.unity
+    guid: e487fe48821eb034a81fd90bdc51a3e0
+  - enabled: 1
+    path: Assets/Scenes/Level/Respawn1.unity
+    guid: 2efc2024bd3bbea44a4f9e581e97e70d
+  - enabled: 1
+    path: Assets/Scenes/Level/Respawn2.unity
+    guid: 2dc7844578dc53c4cb2c7b6fd8022b21
   m_configObjects: {}
