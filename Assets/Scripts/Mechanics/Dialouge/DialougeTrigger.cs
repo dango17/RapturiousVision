@@ -1,7 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI; 
+using UnityEngine.UI;
+
+//Written by Daniel Oldham
+//S1903729
 
 public class DialougeTrigger : MonoBehaviour
 { 
@@ -58,12 +61,13 @@ public class DialougeTrigger : MonoBehaviour
         }
     } 
 
+    //Notify player has new notes
     IEnumerator FlashNoteBookPrompt()
     {
         yield return new WaitForSeconds(6);
         NotebookAddedPrompt.gameObject.SetActive(false);
     }
-
+    //Player has left range of logbook
     void OnTriggerExit(Collider player)
     {
         LogbookScreen.SetActive(false);

@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 
+//Written by Daniel Oldham
+//S1903729
+
 public class DoorOpenTrue : MonoBehaviour
 {
     // Sliding door

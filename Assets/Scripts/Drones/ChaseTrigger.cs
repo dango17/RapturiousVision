@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Written by Daniel Oldham
+//S1903729
+
 public class ChaseTrigger : MonoBehaviour
 {
     //Player has hit specific radius, turn off patrol scripts 

@@ -1,13 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI; 
+using UnityEngine.UI;
+
+//Written by Daniel Oldham
+//S1903729
 
 public class DialogeManager : MonoBehaviour
 {
     public Text nameText;
     public Text dialougeText;
-    //public Animator animator; 
 
     private Queue<string> sentences; 
 
@@ -18,20 +20,23 @@ public class DialogeManager : MonoBehaviour
 
     public void StartDialouge(Dialouge dialouge)
     {
-        //animator.SetBool("IsOpen", true);
+        //Name of Logbook writter
         nameText.text = dialouge.name; 
 
         sentences.Clear(); 
 
+        //Add each sentence to que
         foreach(string sentence in dialouge.sentences)
         {
             sentences.Enqueue(sentence);
         }
+        //Move on
         DisplayNextSentence();
     } 
 
     public void DisplayNextSentence()
-    {
+    { 
+        //Non left
         if(sentences.Count == 0)
         {
             EndDialouge();
@@ -43,6 +48,7 @@ public class DialogeManager : MonoBehaviour
 
     public void EndDialouge()
     {        
-        // animator.SetBool("IsOpen", false);              
+        //End
+        //Do nothing, close inside the Trigger script
     }
 }

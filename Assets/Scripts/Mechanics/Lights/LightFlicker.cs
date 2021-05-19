@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Written by Daniel Oldham
+//S1903729
+
 public class LightFlicker : MonoBehaviour
 {
     public Light lightFlicker;
@@ -9,9 +12,6 @@ public class LightFlicker : MonoBehaviour
     public float MinTime;
     public float MaxTime;
     public float Timer;
-
-    //public AudioSource AS;
-    //public AudioClip LightAudio;
 
     void start ()
     {
@@ -32,7 +32,6 @@ public class LightFlicker : MonoBehaviour
         {
             lightFlicker.enabled = !lightFlicker.enabled;
             Timer = Random.Range(MinTime, MaxTime);
-           // AS.PlayOneShot(LightAudio);
         }
     }
 }

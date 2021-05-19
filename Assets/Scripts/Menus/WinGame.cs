@@ -1,7 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement; 
+using UnityEngine.SceneManagement;
+
+//Written by Daniel Oldham
+//S1903729
 
 public class WinGame : MonoBehaviour
 {

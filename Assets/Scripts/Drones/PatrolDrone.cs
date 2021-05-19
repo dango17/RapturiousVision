@@ -2,13 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Written by Daniel Oldham
+//S1903729
+
 public class PatrolDrone : MonoBehaviour
 {
     public Transform[] waypoints;
     public int speed;
 
     private int waypointIndex;
-    private float dist; 
+    private float distance; 
 
     // Start is called before the first frame update
     void Start()
@@ -20,8 +23,8 @@ public class PatrolDrone : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        dist = Vector3.Distance(transform.position, waypoints[waypointIndex].position); 
-        if(dist < 1f)
+        distance = Vector3.Distance(transform.position, waypoints[waypointIndex].position); 
+        if(distance < 1f)
         {
             IncreaseIndex(); 
         }

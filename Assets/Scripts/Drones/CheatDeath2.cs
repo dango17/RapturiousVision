@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+//Written by Daniel Oldham
+//S1903729
+
 public class CheatDeath2 : MonoBehaviour
 {
     public GameObject CheatdeathUI;

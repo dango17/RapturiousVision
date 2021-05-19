@@ -1,6 +1,9 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
+//Written by Daniel Oldham
+//S1903729
+
 public class PickUp : MonoBehaviour
 {
     public Transform theDest;

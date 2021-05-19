@@ -1,0 +1,1 @@
+The door scripts quickly became spaghetti code. Not sure which ones are in use and which others are not. Left them all in just to be sure. All of them are similar just slightly modified .  

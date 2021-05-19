@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Audio;
-using UnityEngine.UI; 
+using UnityEngine.UI;
+
+//Written by Daniel Oldham
+//S1903729
 
 public class SettingsMenu : MonoBehaviour
 {

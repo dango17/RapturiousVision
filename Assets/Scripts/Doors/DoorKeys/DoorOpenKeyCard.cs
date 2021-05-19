@@ -2,17 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Written by Daniel Oldham
+//S1903729
+
 public class DoorOpenKeyCard : MonoBehaviour
 {
-    // Sliding door
     public enum OpenDirection { x, y, z }
     public OpenDirection direction = OpenDirection.y;
-    public float openDistance = 3f; //How far should door slide (change direction by entering either a positive or a negative value)
-    public float openSpeed = 2.0f; //Increasing this value will make the door open faster
-    public Transform doorBody; //Door body Transform
+    public float openDistance = 3f; 
+    public float openSpeed = 2.0f; 
+    public Transform doorBody; 
 
     bool open = false;
-
     Vector3 defaultDoorPosition;
 
     void Start()
@@ -23,7 +24,6 @@ public class DoorOpenKeyCard : MonoBehaviour
         }
     }
 
-    // Main function
     void Update()
     {
         if (!doorBody)
@@ -43,7 +43,6 @@ public class DoorOpenKeyCard : MonoBehaviour
         }
     }
 
-    // Activate the Main function when Player enter the trigger area
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -53,7 +52,6 @@ public class DoorOpenKeyCard : MonoBehaviour
         }
     }
 
-    // Deactivate the Main function when Player exit the trigger area
     void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
